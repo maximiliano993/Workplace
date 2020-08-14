@@ -21,7 +21,7 @@ var getJSONData = function(url){
     return fetch(url)
     .then(response => {
       if (response.ok) {
-        return response.json();
+        return  response.json();
       }else{
         throw Error(response.statusText);
       }

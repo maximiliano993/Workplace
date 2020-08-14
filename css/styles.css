@@ -139,3 +139,22 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+
+.product{
+  float: left;
+  margin-right:10px ;
+}
+
+.product-data{
+  list-style-type: none;
+}
+
+.product-image{
+  width:200px;
+}
+
+.product-description{
+  width:200px ;
+}
+
