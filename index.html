@@ -30,33 +30,61 @@
 
     .signin {
       width: 100%;
-      max-width: 330px;
+      max-width: 600px;
       padding: 15px;
       margin: auto;
     }
+
+    .login-part{
+      width:100%;
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    h3{
+      padding-top: 10px;
+    }
+
+    button{
+      font-size:30px ;
+      letter-spacing: 3px;
+    }
+
   </style>
 </head>
 <body>
 
 <form class="signin" onsubmit="login(); return false;">
 
-  <h2>Por favor inicie sesión</h2>
 
   <ul class="list-no-style">
+
+      <li>
+        <img class="login-part" src="img\login.png" alt="imagen de bienvenida">
+
+      </li>
+
+      <li>
+        <h3 class="center">Iniciar Sesión</h3>
+
+      </li>
+
       <li>
           <label for="email"></label>
-          <input type="email" id="email" required placeholder="Dirección Email">
+          <input class="login-part" type="email" id="email" required placeholder="Dirección Email">
       </li>
       <li>
           <label for="contraseña"></label>
-          <input type="password" id="contraseña" required placeholder="Contraseña">
+          <input class="login-part" type="password" id="contraseña" required placeholder="Contraseña">
       </li>
-      <li>
-          <label for="remember">Recordar?</label>
+      <li class="center">
+          <label for="remember">¿Recordar?</label>
           <input type="checkbox" id="recordar" name="recordar" ></input>
       </li>
       <li>
-          <button type="submit"  >Ingresar</button>
+          <button class="login-part" type="submit"  >Ingresar</button>
       </li>
 
   </ul>
