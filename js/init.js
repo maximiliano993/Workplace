@@ -42,10 +42,14 @@ var getJSONData = function(url){
     });
 }
 
-
+function user_data(){
+  let direction=document.getElementById('usuario')
+  direction.innerHTML=localStorage.getItem('email')
+}
 
 //Función que se ejecuta una vez que se haya lanzado el evento de
 //que el documento se encuentra cargado, es decir, se encuentran todos los
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded", function(e){
+  user_data()
 });

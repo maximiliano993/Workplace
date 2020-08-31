@@ -141,22 +141,12 @@ a.custom-card:hover {
 }
 
 
-.product{
-  float: left;
-  width:440px;
-  margin-right:10px ;
-  margin-left:10px ;
-  margin-top: 10px;
-  background-color:rgb(245, 240, 240);
-}
+
 
 .list-no-style{
   list-style-type: none;
 }
 
-.product-size{
-  width:90%;
-}
 
 .center{
   text-align: center;
@@ -164,8 +154,11 @@ a.custom-card:hover {
 }
 
 .container-product{
-  width: 80%;
+ 
   
 }
 
 
+#usuario{
+  color:whitesmoke ;
+}
