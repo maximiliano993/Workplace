@@ -153,12 +153,16 @@ a.custom-card:hover {
   padding-right: 10%;
 }
 
-.container-product{
- 
-  
-}
 
 
 #usuario{
   color:whitesmoke ;
+}
+
+#related_products-box{
+  display:flex
+}
+
+.form{
+  display:inline
 }
